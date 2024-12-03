@@ -1,0 +1,281 @@
+2024/12/03-21:05:44.505668 c3bc RocksDB version: 7.9.2
+2024/12/03-21:05:44.505771 c3bc Git sha 444b3f4845dd01b0d127c4b420fdd3b50ad56682
+2024/12/03-21:05:44.505809 c3bc Compile date 2023-01-18 23:20:31
+2024/12/03-21:05:44.505859 c3bc DB SUMMARY
+2024/12/03-21:05:44.505894 c3bc DB Session ID:  70CC51UU3GGNJK850XIH
+2024/12/03-21:05:44.506151 c3bc SST files in D:/bigdata_kv/kv/data/shareddb dir, Total Num: 0, files: 
+2024/12/03-21:05:44.506170 c3bc Write Ahead Log file in D:/bigdata_kv/kv/data/shareddb: 
+2024/12/03-21:05:44.506180 c3bc                         Options.error_if_exists: 0
+2024/12/03-21:05:44.506188 c3bc                       Options.create_if_missing: 1
+2024/12/03-21:05:44.506195 c3bc                         Options.paranoid_checks: 1
+2024/12/03-21:05:44.506278 c3bc             Options.flush_verify_memtable_count: 1
+2024/12/03-21:05:44.506293 c3bc                               Options.track_and_verify_wals_in_manifest: 0
+2024/12/03-21:05:44.506309 c3bc        Options.verify_sst_unique_id_in_manifest: 1
+2024/12/03-21:05:44.506314 c3bc                                     Options.env: 000001D627A9C880
+2024/12/03-21:05:44.506318 c3bc                                      Options.fs: WinFS
+2024/12/03-21:05:44.506391 c3bc                                Options.info_log: 000001D627CCF530
+2024/12/03-21:05:44.506395 c3bc                Options.max_file_opening_threads: 16
+2024/12/03-21:05:44.506398 c3bc                              Options.statistics: 0000000000000000
+2024/12/03-21:05:44.506402 c3bc                               Options.use_fsync: 0
+2024/12/03-21:05:44.506408 c3bc                       Options.max_log_file_size: 0
+2024/12/03-21:05:44.506412 c3bc                  Options.max_manifest_file_size: 1073741824
+2024/12/03-21:05:44.506415 c3bc                   Options.log_file_time_to_roll: 0
+2024/12/03-21:05:44.506418 c3bc                       Options.keep_log_file_num: 1000
+2024/12/03-21:05:44.506422 c3bc                    Options.recycle_log_file_num: 0
+2024/12/03-21:05:44.506425 c3bc                         Options.allow_fallocate: 1
+2024/12/03-21:05:44.506444 c3bc                        Options.allow_mmap_reads: 0
+2024/12/03-21:05:44.506465 c3bc                       Options.allow_mmap_writes: 0
+2024/12/03-21:05:44.506473 c3bc                        Options.use_direct_reads: 0
+2024/12/03-21:05:44.506483 c3bc                        Options.use_direct_io_for_flush_and_compaction: 0
+2024/12/03-21:05:44.506490 c3bc          Options.create_missing_column_families: 0
+2024/12/03-21:05:44.506493 c3bc                              Options.db_log_dir: 
+2024/12/03-21:05:44.506497 c3bc                                 Options.wal_dir: 
+2024/12/03-21:05:44.506500 c3bc                Options.table_cache_numshardbits: 6
+2024/12/03-21:05:44.506503 c3bc                         Options.WAL_ttl_seconds: 0
+2024/12/03-21:05:44.506507 c3bc                       Options.WAL_size_limit_MB: 0
+2024/12/03-21:05:44.506510 c3bc                        Options.max_write_batch_group_size_bytes: 1048576
+2024/12/03-21:05:44.506514 c3bc             Options.manifest_preallocation_size: 4194304
+2024/12/03-21:05:44.506517 c3bc                     Options.is_fd_close_on_exec: 1
+2024/12/03-21:05:44.506520 c3bc                   Options.advise_random_on_open: 1
+2024/12/03-21:05:44.506524 c3bc                    Options.db_write_buffer_size: 0
+2024/12/03-21:05:44.506527 c3bc                    Options.write_buffer_manager: 000001D627A9B7A0
+2024/12/03-21:05:44.506530 c3bc         Options.access_hint_on_compaction_start: 1
+2024/12/03-21:05:44.506539 c3bc           Options.random_access_max_buffer_size: 1048576
+2024/12/03-21:05:44.506542 c3bc                      Options.use_adaptive_mutex: 0
+2024/12/03-21:05:44.506546 c3bc                            Options.rate_limiter: 0000000000000000
+2024/12/03-21:05:44.506549 c3bc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2024/12/03-21:05:44.506552 c3bc                       Options.wal_recovery_mode: 2
+2024/12/03-21:05:44.506556 c3bc                  Options.enable_thread_tracking: 0
+2024/12/03-21:05:44.506559 c3bc                  Options.enable_pipelined_write: 0
+2024/12/03-21:05:44.506578 c3bc                  Options.unordered_write: 0
+2024/12/03-21:05:44.506582 c3bc         Options.allow_concurrent_memtable_write: 1
+2024/12/03-21:05:44.506585 c3bc      Options.enable_write_thread_adaptive_yield: 1
+2024/12/03-21:05:44.506588 c3bc             Options.write_thread_max_yield_usec: 100
+2024/12/03-21:05:44.506592 c3bc            Options.write_thread_slow_yield_usec: 3
+2024/12/03-21:05:44.506595 c3bc                               Options.row_cache: None
+2024/12/03-21:05:44.506598 c3bc                              Options.wal_filter: None
+2024/12/03-21:05:44.506602 c3bc             Options.avoid_flush_during_recovery: 0
+2024/12/03-21:05:44.506605 c3bc             Options.allow_ingest_behind: 0
+2024/12/03-21:05:44.506608 c3bc             Options.two_write_queues: 0
+2024/12/03-21:05:44.506612 c3bc             Options.manual_wal_flush: 0
+2024/12/03-21:05:44.506615 c3bc             Options.wal_compression: 0
+2024/12/03-21:05:44.506618 c3bc             Options.atomic_flush: 0
+2024/12/03-21:05:44.506621 c3bc             Options.avoid_unnecessary_blocking_io: 0
+2024/12/03-21:05:44.506625 c3bc                 Options.persist_stats_to_disk: 0
+2024/12/03-21:05:44.506628 c3bc                 Options.write_dbid_to_manifest: 0
+2024/12/03-21:05:44.506631 c3bc                 Options.log_readahead_size: 0
+2024/12/03-21:05:44.506634 c3bc                 Options.file_checksum_gen_factory: Unknown
+2024/12/03-21:05:44.506638 c3bc                 Options.best_efforts_recovery: 0
+2024/12/03-21:05:44.506641 c3bc                Options.max_bgerror_resume_count: 2147483647
+2024/12/03-21:05:44.506645 c3bc            Options.bgerror_resume_retry_interval: 1000000
+2024/12/03-21:05:44.506648 c3bc             Options.allow_data_in_errors: 0
+2024/12/03-21:05:44.506651 c3bc             Options.db_host_id: __hostname__
+2024/12/03-21:05:44.506654 c3bc             Options.enforce_single_del_contracts: true
+2024/12/03-21:05:44.506658 c3bc             Options.max_background_jobs: 2
+2024/12/03-21:05:44.506661 c3bc             Options.max_background_compactions: -1
+2024/12/03-21:05:44.506664 c3bc             Options.max_subcompactions: 1
+2024/12/03-21:05:44.506668 c3bc             Options.avoid_flush_during_shutdown: 0
+2024/12/03-21:05:44.506671 c3bc           Options.writable_file_max_buffer_size: 1048576
+2024/12/03-21:05:44.506674 c3bc             Options.delayed_write_rate : 16777216
+2024/12/03-21:05:44.506678 c3bc             Options.max_total_wal_size: 0
+2024/12/03-21:05:44.506681 c3bc             Options.delete_obsolete_files_period_micros: 21600000000
+2024/12/03-21:05:44.506684 c3bc                   Options.stats_dump_period_sec: 600
+2024/12/03-21:05:44.506688 c3bc                 Options.stats_persist_period_sec: 600
+2024/12/03-21:05:44.506691 c3bc                 Options.stats_history_buffer_size: 1048576
+2024/12/03-21:05:44.506694 c3bc                          Options.max_open_files: -1
+2024/12/03-21:05:44.506698 c3bc                          Options.bytes_per_sync: 0
+2024/12/03-21:05:44.506701 c3bc                      Options.wal_bytes_per_sync: 0
+2024/12/03-21:05:44.506704 c3bc                   Options.strict_bytes_per_sync: 0
+2024/12/03-21:05:44.506707 c3bc       Options.compaction_readahead_size: 0
+2024/12/03-21:05:44.506711 c3bc                  Options.max_background_flushes: -1
+2024/12/03-21:05:44.506714 c3bc Compression algorithms supported:
+2024/12/03-21:05:44.506718 c3bc 	kZSTD supported: 1
+2024/12/03-21:05:44.506721 c3bc 	kSnappyCompression supported: 1
+2024/12/03-21:05:44.506725 c3bc 	kBZip2Compression supported: 0
+2024/12/03-21:05:44.506728 c3bc 	kZlibCompression supported: 1
+2024/12/03-21:05:44.506731 c3bc 	kLZ4Compression supported: 1
+2024/12/03-21:05:44.506735 c3bc 	kXpressCompression supported: 0
+2024/12/03-21:05:44.506738 c3bc 	kLZ4HCCompression supported: 1
+2024/12/03-21:05:44.506741 c3bc 	kZSTDNotFinalCompression supported: 1
+2024/12/03-21:05:44.506745 c3bc Fast CRC32 supported: Supported on x86
+2024/12/03-21:05:44.506748 c3bc DMutex implementation: std::mutex
+2024/12/03-21:05:44.510337 c3bc [db\db_impl\db_impl_open.cc:317] Creating manifest 1 
+2024/12/03-21:05:44.515848 c3bc [db\version_set.cc:5528] Recovering from manifest file: D:/bigdata_kv/kv/data/shareddb/MANIFEST-000001
+2024/12/03-21:05:44.515920 c3bc [db\column_family.cc:632] --------------- Options for column family [default]:
+2024/12/03-21:05:44.515926 c3bc               Options.comparator: leveldb.BytewiseComparator
+2024/12/03-21:05:44.515929 c3bc           Options.merge_operator: None
+2024/12/03-21:05:44.515933 c3bc        Options.compaction_filter: None
+2024/12/03-21:05:44.515936 c3bc        Options.compaction_filter_factory: None
+2024/12/03-21:05:44.515939 c3bc  Options.sst_partitioner_factory: None
+2024/12/03-21:05:44.515943 c3bc         Options.memtable_factory: SkipListFactory
+2024/12/03-21:05:44.515946 c3bc            Options.table_factory: BlockBasedTable
+2024/12/03-21:05:44.515961 c3bc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000001D628336ED0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 000001D628300110
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+    low_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2024/12/03-21:05:44.515964 c3bc        Options.write_buffer_size: 67108864
+2024/12/03-21:05:44.515968 c3bc  Options.max_write_buffer_number: 2
+2024/12/03-21:05:44.515971 c3bc          Options.compression: Snappy
+2024/12/03-21:05:44.515974 c3bc                  Options.bottommost_compression: Disabled
+2024/12/03-21:05:44.515978 c3bc       Options.prefix_extractor: nullptr
+2024/12/03-21:05:44.515981 c3bc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2024/12/03-21:05:44.515984 c3bc             Options.num_levels: 7
+2024/12/03-21:05:44.515988 c3bc        Options.min_write_buffer_number_to_merge: 1
+2024/12/03-21:05:44.515991 c3bc     Options.max_write_buffer_number_to_maintain: 0
+2024/12/03-21:05:44.515994 c3bc     Options.max_write_buffer_size_to_maintain: 0
+2024/12/03-21:05:44.515997 c3bc            Options.bottommost_compression_opts.window_bits: -14
+2024/12/03-21:05:44.516001 c3bc                  Options.bottommost_compression_opts.level: 32767
+2024/12/03-21:05:44.516004 c3bc               Options.bottommost_compression_opts.strategy: 0
+2024/12/03-21:05:44.516007 c3bc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2024/12/03-21:05:44.516011 c3bc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2024/12/03-21:05:44.516014 c3bc         Options.bottommost_compression_opts.parallel_threads: 1
+2024/12/03-21:05:44.516017 c3bc                  Options.bottommost_compression_opts.enabled: false
+2024/12/03-21:05:44.516021 c3bc         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2024/12/03-21:05:44.516024 c3bc         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2024/12/03-21:05:44.516028 c3bc            Options.compression_opts.window_bits: -14
+2024/12/03-21:05:44.516031 c3bc                  Options.compression_opts.level: 32767
+2024/12/03-21:05:44.516034 c3bc               Options.compression_opts.strategy: 0
+2024/12/03-21:05:44.516039 c3bc         Options.compression_opts.max_dict_bytes: 0
+2024/12/03-21:05:44.516042 c3bc         Options.compression_opts.zstd_max_train_bytes: 0
+2024/12/03-21:05:44.516046 c3bc         Options.compression_opts.use_zstd_dict_trainer: true
+2024/12/03-21:05:44.516049 c3bc         Options.compression_opts.parallel_threads: 1
+2024/12/03-21:05:44.516052 c3bc                  Options.compression_opts.enabled: false
+2024/12/03-21:05:44.516056 c3bc         Options.compression_opts.max_dict_buffer_bytes: 0
+2024/12/03-21:05:44.516059 c3bc      Options.level0_file_num_compaction_trigger: 4
+2024/12/03-21:05:44.516062 c3bc          Options.level0_slowdown_writes_trigger: 20
+2024/12/03-21:05:44.516066 c3bc              Options.level0_stop_writes_trigger: 36
+2024/12/03-21:05:44.516069 c3bc                   Options.target_file_size_base: 67108864
+2024/12/03-21:05:44.516072 c3bc             Options.target_file_size_multiplier: 1
+2024/12/03-21:05:44.516107 c3bc                Options.max_bytes_for_level_base: 268435456
+2024/12/03-21:05:44.516111 c3bc Options.level_compaction_dynamic_level_bytes: 0
+2024/12/03-21:05:44.516114 c3bc          Options.max_bytes_for_level_multiplier: 10.000000
+2024/12/03-21:05:44.516118 c3bc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2024/12/03-21:05:44.516122 c3bc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2024/12/03-21:05:44.516125 c3bc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2024/12/03-21:05:44.516128 c3bc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2024/12/03-21:05:44.516131 c3bc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2024/12/03-21:05:44.516135 c3bc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2024/12/03-21:05:44.516138 c3bc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2024/12/03-21:05:44.516141 c3bc       Options.max_sequential_skip_in_iterations: 8
+2024/12/03-21:05:44.516145 c3bc                    Options.max_compaction_bytes: 1677721600
+2024/12/03-21:05:44.516148 c3bc   Options.ignore_max_compaction_bytes_for_input: true
+2024/12/03-21:05:44.516151 c3bc                        Options.arena_block_size: 1048576
+2024/12/03-21:05:44.516154 c3bc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2024/12/03-21:05:44.516158 c3bc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2024/12/03-21:05:44.516161 c3bc                Options.disable_auto_compactions: 0
+2024/12/03-21:05:44.516165 c3bc                        Options.compaction_style: kCompactionStyleLevel
+2024/12/03-21:05:44.516168 c3bc                          Options.compaction_pri: kMinOverlappingRatio
+2024/12/03-21:05:44.516172 c3bc Options.compaction_options_universal.size_ratio: 1
+2024/12/03-21:05:44.516175 c3bc Options.compaction_options_universal.min_merge_width: 2
+2024/12/03-21:05:44.516178 c3bc Options.compaction_options_universal.max_merge_width: 4294967295
+2024/12/03-21:05:44.516182 c3bc Options.compaction_options_universal.max_size_amplification_percent: 200
+2024/12/03-21:05:44.516185 c3bc Options.compaction_options_universal.compression_size_percent: -1
+2024/12/03-21:05:44.516189 c3bc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2024/12/03-21:05:44.516192 c3bc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2024/12/03-21:05:44.516195 c3bc Options.compaction_options_fifo.allow_compaction: 0
+2024/12/03-21:05:44.516200 c3bc                   Options.table_properties_collectors: 
+2024/12/03-21:05:44.516203 c3bc                   Options.inplace_update_support: 0
+2024/12/03-21:05:44.516206 c3bc                 Options.inplace_update_num_locks: 10000
+2024/12/03-21:05:44.516210 c3bc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2024/12/03-21:05:44.516213 c3bc               Options.memtable_whole_key_filtering: 0
+2024/12/03-21:05:44.516216 c3bc   Options.memtable_huge_page_size: 0
+2024/12/03-21:05:44.516220 c3bc                           Options.bloom_locality: 0
+2024/12/03-21:05:44.516223 c3bc                    Options.max_successive_merges: 0
+2024/12/03-21:05:44.516226 c3bc                Options.optimize_filters_for_hits: 0
+2024/12/03-21:05:44.516246 c3bc                Options.paranoid_file_checks: 0
+2024/12/03-21:05:44.516250 c3bc                Options.force_consistency_checks: 1
+2024/12/03-21:05:44.516253 c3bc                Options.report_bg_io_stats: 0
+2024/12/03-21:05:44.516257 c3bc                               Options.ttl: 2592000
+2024/12/03-21:05:44.516260 c3bc          Options.periodic_compaction_seconds: 0
+2024/12/03-21:05:44.516263 c3bc  Options.preclude_last_level_data_seconds: 0
+2024/12/03-21:05:44.516266 c3bc    Options.preserve_internal_time_seconds: 0
+2024/12/03-21:05:44.516270 c3bc                       Options.enable_blob_files: false
+2024/12/03-21:05:44.516273 c3bc                           Options.min_blob_size: 0
+2024/12/03-21:05:44.516276 c3bc                          Options.blob_file_size: 268435456
+2024/12/03-21:05:44.516280 c3bc                   Options.blob_compression_type: NoCompression
+2024/12/03-21:05:44.516283 c3bc          Options.enable_blob_garbage_collection: false
+2024/12/03-21:05:44.516286 c3bc      Options.blob_garbage_collection_age_cutoff: 0.250000
+2024/12/03-21:05:44.516290 c3bc Options.blob_garbage_collection_force_threshold: 1.000000
+2024/12/03-21:05:44.516293 c3bc          Options.blob_compaction_readahead_size: 0
+2024/12/03-21:05:44.516297 c3bc                Options.blob_file_starting_level: 0
+2024/12/03-21:05:44.516300 c3bc Options.experimental_mempurge_threshold: 0.000000
+2024/12/03-21:05:44.516863 c3bc [db\version_set.cc:5575] Recovered from manifest file:D:/bigdata_kv/kv/data/shareddb/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2024/12/03-21:05:44.516875 c3bc [db\version_set.cc:5584] Column family [default] (ID 0), log number is 0
+2024/12/03-21:05:44.516986 c3bc [db\db_impl\db_impl_open.cc:539] DB ID: 4db2092a-b177-11ef-ad00-e4c76789fac5
+2024/12/03-21:05:44.517689 c3bc [db\version_set.cc:5048] Creating manifest 5
+2024/12/03-21:05:44.525316 c3bc [db\db_impl\db_impl_open.cc:1988] SstFileManager instance 000001D627F25CA0
+2024/12/03-21:05:44.525506 c3bc DB pointer 000001D627CD4F80
+2024/12/03-21:05:50.539058 12d34 [db\db_impl\db_impl.cc:1110] ------- DUMPING STATS -------
+2024/12/03-21:05:50.539142 12d34 [db\db_impl\db_impl.cc:1111] 
+** DB Stats **
+Uptime(secs): 6.0 total, 6.0 interval
+Cumulative writes: 1 writes, 1 keys, 1 commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 1 writes, 0 syncs, 1.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 1 writes, 1 keys, 1 commit groups, 1.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 1 writes, 0 syncs, 1.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 6.0 total, 6.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000001D628300110#107552 capacity: 8.00 MB usage: 0.08 KB table_size: 256 occupancy: 87 collections: 1 last_copies: 0 last_secs: 0.000106 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **
+2024/12/03-21:05:55.709726 1ae7c [db\db_impl\db_impl.cc:497] Shutdown: canceling all background work
+2024/12/03-21:05:55.715644 1ae7c [db\db_impl\db_impl.cc:704] Shutdown complete
